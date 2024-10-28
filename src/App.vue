@@ -1,19 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SeccionFirts msg=""/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SeccionFirts from './components/SeccionFirts.vue'
+
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    SeccionFirts
   }
 }
 </script>
 
+//
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
